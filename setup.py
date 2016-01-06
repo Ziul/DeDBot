@@ -24,7 +24,7 @@ setup(
     entry_points={
         'console_scripts': [
             'dice = dice:roll',
-            'bot-run = dice:main',
+            'bot-run = main:main',
         ]},
     description='A Telegram bot',
     long_description=__doc__,
